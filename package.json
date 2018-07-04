@@ -1,0 +1,22 @@
+{
+  "name": "apollo-server-2",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon lib/index.js",
+    "serve": "npm run build && node lib/index.js",
+    "start": "node lib/index.js"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "apollo-server": "^2.0.0-rc.6",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "@types/graphql": "^0.13.3",
+    "nodemon": "^1.17.5",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
